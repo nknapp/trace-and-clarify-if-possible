@@ -1,0 +1,8 @@
+{{npm 'trace'}} and {{npm 'clarify'}} can help greatly to analyze stack-traces
+
+* `trace` shows the part of the stack that would otherwise disappear due to asynchronous callbacks
+* `clarify` removes uninteresting parts of the stack
+
+Sadly, `trace` can is only compatible with NodeJS version >=4. It makes sense to include `trace` in your tests all the time (not in production code though). However, when you run the test in [Travis CI](https://travis-ci.org/) with multiple node versions <4, the tests will break.
+
+This package include `trace` and `clarify` only for supported node versions.
