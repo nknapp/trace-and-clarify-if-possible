@@ -1,9 +1,8 @@
 # trace-and-clarify-if-possible 
 
-[![NPM version](https://badge.fury.io/js/trace-and-clarify-if-possible.svg)](http://badge.fury.io/js/trace-and-clarify-if-possible)
+[![NPM version](https://img.shields.io/npm/v/trace-and-clarify-if-possible.svg)](https://npmjs.com/package/trace-and-clarify-if-possible)
 [![Travis Build Status](https://travis-ci.org/nknapp/trace-and-clarify-if-possible.svg?branch=master)](https://travis-ci.org/nknapp/trace-and-clarify-if-possible)
 [![Coverage Status](https://img.shields.io/coveralls/nknapp/trace-and-clarify-if-possible.svg)](https://coveralls.io/r/nknapp/trace-and-clarify-if-possible)
-
 
 > Use `trace` and `clarify` if supported by the current node version
 
@@ -38,15 +37,17 @@ Or, you can put `--require trace-and-clarify-if-possible into your `test/mocha.o
 
 
 
-## License
+# License
 
-`trace-and-clarify-if-possible` is published under the MIT-license. 
+`trace-and-clarify-if-possible` is published under the MIT-license.
+
 See [LICENSE.md](LICENSE.md) for details.
 
-## Release-Notes
+
+# Release-Notes
  
 For release notes, see [CHANGELOG.md](CHANGELOG.md)
  
-## Contributing guidelines
+# Contributing guidelines
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
