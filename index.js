@@ -9,9 +9,8 @@
 
 var versionStr = process.version.match(/v(\d+).*/)[1]
 var majorVersion = Number(versionStr)
-if (majorVersion >= 4) {
+if (majorVersion >= 4 && majorVersion < 8) {
   require('trace')
   require('clarify')
   console.log('Trace and clarify activated')
 }
-

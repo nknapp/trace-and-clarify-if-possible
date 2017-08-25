@@ -1,6 +1,6 @@
 {
   "name": "trace-and-clarify-if-possible",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use `trace` and `clarify` if supported by the current node version",
   "repository": {
     "type": "git",
@@ -18,15 +18,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "preformat": "standard --version || npm -g install standard",
-    "format": "standard --format",
-    "pretest": "standard --version || npm -g install standard",
-    "test": "mocha --recursive && standard",
+    "lint": "eslint --fix .",
+    "test": "mocha && npm run lint",
     "thought": "thought run -a",
-    "prethoughtcheck": "thought --version || npm -g install thought",
-    "thoughtcheck": "thought check-engines",
     "version": "thoughtful changelog -o -a && npm run thought",
-    "preversion": "npm run thoughtcheck"
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha"
   },
   "dependencies": {
     "clarify": "^2.0.0",
@@ -34,7 +30,13 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "ghooks": "^2.0.0",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "thoughtful-release": "^0.3.0"
   },
@@ -48,11 +50,6 @@
     "lib",
     "bin"
   ],
-  "config": {
-    "ghooks": {
-      "pre-commit": "standard"
-    }
-  },
   "keywords": [
     "trace",
     "clarify"
