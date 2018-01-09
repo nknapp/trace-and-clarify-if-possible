@@ -7,8 +7,9 @@
 
 'use strict'
 
-const versionStr = process.version.match(/v(\d+).*/)[1]
-const majorVersion = Number(versionStr)
+// Use "var" instead of const, in order to support node 0.10
+var versionStr = process.version.match(/v(\d+).*/)[1]
+var majorVersion = Number(versionStr)
 if (majorVersion >= 8) {
   require('trace')
   require('clarify')
