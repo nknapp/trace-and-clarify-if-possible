@@ -4,8 +4,12 @@ node_js:
   - "4"
   - "6"
   - "8"
+  - "9"
+env:
+  - INSTALL_CMD="npm install"
+  - INSTALL_CMD="yarn install"
 script:
-  - npm install
+  - ${INSTALL_CMD}
   - npm run coverage
   - eslint --max-warnings 0 .
 after_script:
