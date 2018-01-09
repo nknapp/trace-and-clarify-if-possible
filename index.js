@@ -1,7 +1,7 @@
 /*!
  * trace-and-clarify-if-possible <https://github.com/nknapp/trace-and-clarify-if-possible>
  *
- * Copyright (c) 2016 Nils Knappmeier.
+ * Copyright (c) 2018 Nils Knappmeier.
  * Released under the MIT license.
  */
 
