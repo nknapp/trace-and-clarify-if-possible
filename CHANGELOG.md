@@ -1,6 +1,14 @@
 # Release notes for `trace-and-clarify-if-possible`
 
 <a name="current-release"></a>
+# Version 1.0.2 (Tue, 09 Jan 2018 20:36:48 GMT)
+
+* [88dc4aa](https://github.com/nknapp/trace-and-clarify-if-possible/commit/88dc4aa) Bump dependency versions, support node 8+ (disabled node 6-) - Nils Knappmeier
+* [7997a00](https://github.com/nknapp/trace-and-clarify-if-possible/commit/7997a00) fix: Prevent broken "yarn install" - Nils Knappmeier
+* [565fb1c](https://github.com/nknapp/trace-and-clarify-if-possible/commit/565fb1c) Add node 9 and yarn to travis-ci - Nils Knappmeier
+
+**Important: trace and clarify will be disabled for node version before 8 in this release.**
+
 # Version 1.0.1 (Thu, 24 Aug 2017 20:58:17 GMT)
 
 * [608f7b4](https://github.com/nknapp/trace-and-clarify-if-possible/commit/608f7b4) Disable "trace@2" for node 8 - Nils Knappmeier
