@@ -24,7 +24,7 @@
     "version": "thoughtful changelog -o -a && npm run thought",
     "coverage": "istanbul cover ./node_modules/.bin/_mocha"
   },
-  "dependencies": {
+  "optionalDependencies": {
     "clarify": "^2.0.0",
     "trace": "^2.4.0"
   },
