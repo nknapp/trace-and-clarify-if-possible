@@ -1,6 +1,11 @@
 # Release notes for `trace-and-clarify-if-possible`
 
 <a name="current-release"></a>
+# Version 1.0.3 (Tue, 09 Jan 2018 21:08:57 GMT)
+
+* [1a6b410](https://github.com/nknapp/trace-and-clarify-if-possible/commit/1a6b410) Use "var" instead of const, in order to support node 0.12 - Nils Knappmeier
+
+
 # Version 1.0.2 (Tue, 09 Jan 2018 20:36:48 GMT)
 
 * [88dc4aa](https://github.com/nknapp/trace-and-clarify-if-possible/commit/88dc4aa) Bump dependency versions, support node 8+ (disabled node 6-) - Nils Knappmeier
