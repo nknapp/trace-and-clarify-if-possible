@@ -74,7 +74,7 @@ describe('trace-and-clarify-if-possible:', function () {
     })
   }
 
-  if (process.version.match(/^v[0123]/)) {
+  if (process.version.match(/^v(0|1|2|3|4|6)\./)) {
     xdescribe('Skipping actual test due to unsupported version', testTraceAndClarify)
   } else {
     describe('Check for trace and clarify activation', testTraceAndClarify)
