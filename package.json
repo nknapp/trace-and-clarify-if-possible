@@ -38,6 +38,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^4.1.0",
+    "thought": "^1.5.2",
     "thoughtful-release": "^0.3.1"
   },
   "standard": {
