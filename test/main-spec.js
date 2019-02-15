@@ -5,10 +5,7 @@
  * Released under the MIT license.
  */
 
-/* global describe */
-/* global it */
-/* global xdescribe */
-// /* global xit */
+/* eslint-env mocha */
 
 'use strict'
 
@@ -52,8 +49,8 @@ describe('trace-and-clarify-if-possible:', function () {
           if (err.message !== 'Testing an Error') {
             throw err
           }
-          expect(err.stack).to.match(/main-spec\.js:25/)
-          expect(err.stack).to.match(/main-spec\.js:19/)
+          expect(err.stack).to.match(/main-spec\.js:22/)
+          expect(err.stack).to.match(/main-spec\.js:16/)
         })
     })
 
