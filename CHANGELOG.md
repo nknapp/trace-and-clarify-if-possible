@@ -1,6 +1,12 @@
 # Release notes for `trace-and-clarify-if-possible`
 
 <a name="current-release"></a>
+# Version 1.0.4 (Fri, 15 Feb 2019 21:39:56 GMT)
+
+* [8cbf810](https://github.com/nknapp/trace-and-clarify-if-possible/commit/8cbf810) chore: add recent node versions to .travis-ci - Nils Knappmeier
+* [06467f6](https://github.com/nknapp/trace-and-clarify-if-possible/commit/06467f6) chore: bump dependency versions, use nyc instead of istanbul - Nils Knappmeier
+
+
 # Version 1.0.3 (Tue, 09 Jan 2018 21:08:57 GMT)
 
 * [1a6b410](https://github.com/nknapp/trace-and-clarify-if-possible/commit/1a6b410) Use "var" instead of const, in order to support node 0.12 - Nils Knappmeier
