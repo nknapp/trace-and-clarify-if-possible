@@ -37,6 +37,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^5.2.0",
+    "nyc": "^13.3.0",
     "thought": "^1.5.2",
     "thoughtful-release": "^0.3.1"
   },
@@ -53,8 +54,5 @@
   "keywords": [
     "trace",
     "clarify"
-  ],
-  "dependencies": {
-    "nyc": "^13.3.0"
-  }
+  ]
 }
