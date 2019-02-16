@@ -1,6 +1,10 @@
 # Release notes for `trace-and-clarify-if-possible`
 
 <a name="current-release"></a>
+# Version 1.0.5 (Sat, 16 Feb 2019 20:42:16 GMT)
+
+* [751a68e](https://github.com/nknapp/trace-and-clarify-if-possible/commit/751a68e) fix: change "nyc" into a devDependency - Nils Knappmeier
+
 # Version 1.0.4 (Fri, 15 Feb 2019 21:39:56 GMT)
 
 * [8cbf810](https://github.com/nknapp/trace-and-clarify-if-possible/commit/8cbf810) chore: add recent node versions to .travis-ci - Nils Knappmeier

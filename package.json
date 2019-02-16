@@ -1,6 +1,6 @@
 {
   "name": "trace-and-clarify-if-possible",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Use `trace` and `clarify` if supported by the current node version",
   "repository": {
     "type": "git",
